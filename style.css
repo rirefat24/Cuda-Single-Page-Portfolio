@@ -1,0 +1,283 @@
+/*****************************************************************************************************************************
+****************************************************************************************************************************** 
+
+Template Name : Cuda-Single Page Portfolio.
+Template URL  : #
+Description   : #
+Author        : Rafiul Islam Refat.
+Author URL    : #
+License       : GNU General Public License version 3.0
+License URI   : http://www.gnu.org/licenses/gpl-3.0.html
+Version       : 1.0
+
+*****************************************************************************************************************************
+****************************************************************************************************************************/
+
+/****************************************************************************************************************************
+***************************************************************************************************************************** 
+Content List :
+
+00. Typography Area 
+01. Header Area 
+02. Services Area 
+03. Team Area  
+04. Skills Area 
+05. Portfolio Area 
+06. Peoples Opinion 
+07. Contact Area 
+08. Footer Area 
+
+*****************************************************************************************************************************
+*****************************************************************************************************************************/
+
+
+
+
+/*********************************************** 01. Typography Area ***********************************************/
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+/************************************************ 02. Header Area ************************************************/
+.header-area {
+    background-color: #86509C;
+}
+.header-area ul li a {
+    margin: 0 10px;
+    border-radius: 3px; 
+    color: white;
+}
+.header-area .active {    
+    color: white;    
+    border-radius: 3px; 
+    background-color: #643a79;
+}
+ul li a:hover {
+    background-color: #643a79;
+}
+
+a{
+    text-transform: uppercase;
+}
+
+.intro-area {
+    letter-spacing: 2px;
+    padding: 95px 0;
+}
+.intro-btn {
+    background-color: #EB7D4C;
+    border-bottom: 4px solid #c86a40;
+    padding: 0 80px;
+    font-size: 18px;
+    transition: 0.5s;
+}
+.intro-btn:hover {
+    background-color: #30336b;
+    border-bottom: 4px solid #130f40;    
+}
+
+
+/************************************************ 03. Services Area ************************************************/
+.services-area {
+    background-color: #18C2A5;
+    padding: 115px 0;
+}
+.services-area p {
+    font-size: 18px;
+}
+.services-area hr {
+    border: 2px solid #14a58c;
+    width: 11%;
+}
+.services-area h5 {
+    font-weight: 700;
+}
+.services-area img {
+    margin: 55px 0;
+    display: inline-block;
+}
+
+/************************************************ 04. Team Area  ************************************************/
+.team-area {
+    background-color: #e7f1f8;
+    padding: 122px 0;
+}
+.team-area h2 {
+    color: #3c4761;
+}
+.team-area h5 {
+    color: #27283d;    
+    font-weight: 600;
+}
+.team-area .job-designation {
+    color: #30bae7;
+}
+.team-area p {
+    color: #3c4761;
+}
+.team-area img {
+    width: 220px;
+    height: 220px;
+    margin: 30px 0;
+    border-radius: 50%;
+}
+.team-area hr {
+    border: 2px solid #c8d9e5;
+    width: 11%;
+}
+/* .team-area a {
+    margin: 2px;
+} */
+.team-area a i {
+    color: white;
+    padding: 10px;
+    border: 50%;
+    border-radius: 50%;
+    background-color: #bdd1df;
+}
+.team-area a i:hover{
+    transform: scale(1.1);
+    background-color: #7ed6df;
+}
+
+/************************************************ 05. Skills Area ************************************************/
+.skills-area hr {
+    border: 2px solid #E7F2F8;
+    width: 11%;
+}
+
+/************************************************ 06. Portfolio Area ************************************************/
+.portfolio-area {
+    background-color: #ffdd99;
+    padding: 110px 0;
+}
+.portfolio-area hr {
+    border: 2px solid #e5c37f;
+    width: 6%;
+}
+.portfolio-area ul li a {
+    font-weight: 600;
+    color: black;
+    padding: 10px 25px;
+    margin: 3px;
+    background-color: #ebc985;
+    text-decoration: none;
+}
+.portfolio-area .active{
+    background-color: #ffffff;
+    border-bottom: 4px solid #ebc985;
+}
+
+.portfolio-area ul li a:hover {
+    background-color: #ffffff;
+    border-bottom: 4px solid #ebc985;
+}
+.portfolio-btn {
+    background-color: #17c2a4;
+    border-bottom: 4px solid #14a58c;
+    padding: 0 80px;
+    font-size: 18px;
+    transition: 0.5s;
+}
+.portfolio-btn:hover {
+    background-color: #14a58c;
+    border-bottom: 5px solid #17c2a4;
+}
+
+
+/************************************************ 07. Peoples Opinion Area ************************************************/
+.peoples-opinion-area {
+    background-color: #D74681;
+}
+.peoples-opinion-area hr {
+    border: 2px solid #b73c6d;
+    width: 11%;
+}
+.media img {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+.media .comment {
+    font-style: italic;
+}
+.media .comment:before,
+.media .comment:after {
+    content: " '' ";
+}
+.media h4 {
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.media .designation {
+    color: #ffdd99;
+}
+
+
+/************************************************ 08. Contact Area ************************************************/
+.contact-area{
+    background-color: #3C549A;
+}
+.contact-area hr {
+    border: 2px solid #273A72;
+    width: 11%;
+}
+textarea.form-control {
+    height: 190px;
+}
+::placeholder {
+    text-transform: capitalize;
+    font-size: 1.2em;
+}
+
+.contact-area .form-control {
+    background-color: #273A72;
+    border: transparent;
+    color: white;
+}
+.contact-btn {
+    background-color: #30BAE8;
+    border-bottom: 4px solid #299ec5;
+    padding: 0 80px;
+    font-size: 18px;
+    transition: 0.5s;
+}
+.contact-btn:hover {
+    background-color: #30336b;
+    border-bottom: 4px solid #130f40;
+}
+
+
+/************************************************ 09. Footer Area ************************************************/
+.footer-area,
+.list-group-item {
+    background-color: #344B8F; 
+    font-weight: 600;   
+}
+.list-group-item {
+    border: none;
+    text-decoration: none;
+}
+.list-group-item a {
+    color: white;
+    text-decoration: none;
+}
+.list-group-item a:hover {
+    background-color: transparent;
+    color: turquoise;
+    transform: scale(1.2);
+    display: block;
+}
+.footer-area .active {
+    color: turquoise;
+}
+
+
+
+
+
+
